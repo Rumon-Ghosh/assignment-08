@@ -1,0 +1,434 @@
+[
+  {
+    "image": "https://img.freepik.com/free-vector/vector-notebook-silhouette-design_779267-1820.jpg",
+    "title": "NoteDaily",
+    "companyName": "BrightApps Inc.",
+    "id": 1,
+    "description": "NoteDaily is a minimal yet powerful note-taking app that supports rich text formatting, tags, folders, voice memos, and automatic cloud backup across devices. Offline mode ensures you never lose your work.",
+    "size": 42,
+    "reviews": 12456,
+    "ratingAvg": 4.6,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 340 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3560 },
+      { "name": "5 star", "count": 8836 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/p6gQEFXaLY61-iD0ZEGW5oh3jyy0ZHX5YuB-c9c87a459AmBec9dLsm-rOaUiXQ6dhg",
+    "title": "FitTrack Pro",
+    "companyName": "WellnessTech",
+    "id": 2,
+    "description": "FitTrack Pro helps you monitor workouts, heart rate, calories burned, get personalized training plans, and visualize progress via charts and trends. It integrates with wearable devices and supports social challenges.",
+    "size": 78,
+    "reviews": 9870,
+    "ratingAvg": 4.3,
+    "downloads": 1750000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 710 },
+      { "name": "3 star", "count": 1320 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4840 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/pixel-play-logo-design-template_145155-283.jpg",
+    "title": "PixelPlay",
+    "companyName": "Skyline Games",
+    "id": 3,
+    "description": "PixelPlay offers a retro-style puzzle experience with hundreds of colorful levels, daily challenges, global leaderboards, and level editors to create your own puzzles and share with friends.",
+    "size": 96,
+    "reviews": 7450,
+    "ratingAvg": 4.8,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 5070 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/music-wave-app-icon_1015334-249.jpg",
+    "title": "SoundWave Music",
+    "companyName": "Streamify",
+    "id": 4,
+    "description": "SoundWave Music gives you access to millions of tracks, curated playlists, offline downloads, and social sharing. Use equalizer presets, discover new songs based on your taste, and collaborate on playlists.",
+    "size": 112,
+    "reviews": 20450,
+    "ratingAvg": 4.5,
+    "downloads": 8100000,
+    "ratings": [
+      { "name": "1 star", "count": 850 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 8400 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/aAg3gIIDhcj3XBH3KUnQ7DmxyPEfSPIuA8V9LXv--fN5ffc2z-5nZwJRYIrz95O26n0",
+    "title": "FinWise Budget",
+    "companyName": "MoneyMap Labs",
+    "id": 5,
+    "description": "FinWise Budget is your personal finance companion: categorize expenses, set budgets, get insights, alerts for overspending, and visualize income vs expense trends over time.",
+    "size": 53,
+    "reviews": 8700,
+    "ratingAvg": 4.4,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 380 },
+      { "name": "2 star", "count": 560 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 3580 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC40dHcIgnRUa66AQ2JK7ywyeqMui3WHUFgQ&s",
+    "title": "LearnMate",
+    "companyName": "EduWorld Ltd.",
+    "id": 6,
+    "description": "LearnMate is an AI-powered study assistant. It offers concept summaries, quizzes, spaced repetition, progress tracking, and live tutoring. Great for school, college, and self-learners.",
+    "size": 68,
+    "reviews": 14300,
+    "ratingAvg": 4.7,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 9880 }
+    ]
+  },
+  {
+    "image": "https://imgcdn.stablediffusionweb.com/2024/9/28/9a8a5299-7068-4fdf-95d4-5631487c6160.jpg",
+    "title": "SnapChef",
+    "companyName": "FoodieLabs",
+    "id": 7,
+    "description": "SnapChef lets you take a photo of ingredients in your fridge or pantry and instantly returns recipe suggestions, step-by-step cooking instructions, estimated prep time, and nutrition facts.",
+    "size": 59,
+    "reviews": 6200,
+    "ratingAvg": 4.2,
+    "downloads": 1250000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 2490 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFM9ETYJJKJxWpWzAnjkop7lyM-TX1pM28Fw&s",
+    "title": "TravelMe",
+    "companyName": "ExploreMore",
+    "id": 8,
+    "description": "TravelMe helps you discover new destinations, plan your itinerary, book local experiences, and get offline maps and travel tips tailored to your interests and travel dates.",
+    "size": 101,
+    "reviews": 17200,
+    "ratingAvg": 4.6,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 850 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 4400 },
+      { "name": "5 star", "count": 8650 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/App_Store_%28iOS%29.svg",
+    "title": "ChatterHub",
+    "companyName": "SocialLink",
+    "id": 9,
+    "description": "ChatterHub is an all-in-one communication app for messaging, voice calls, video calls, group chat, file sharing, and disappearing messages, with full encryption.",
+    "size": 118,
+    "reviews": 38500,
+    "ratingAvg": 4.1,
+    "downloads": 9500000,
+    "ratings": [
+      { "name": "1 star", "count": 3100 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 9700 },
+      { "name": "5 star", "count": 18100 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/App_Store_%28iOS%29.svg",
+    "title": "MindZen",
+    "companyName": "CalmSpace",
+    "id": 10,
+    "description": "MindZen offers guided meditations, breathing exercises, sleep stories, mood tracking, and daily reminders. It adapts content based on your stress levels and feedback.",
+    "size": 72,
+    "reviews": 11000,
+    "ratingAvg": 4.9,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 8540 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/App_Store_%28iOS%29.svg",
+    "title": "EcoHero",
+    "companyName": "GreenTech",
+    "id": 11,
+    "description": "EcoHero gamifies sustainable actions: track recycling, energy saving, tree planting, share achievements, and compete with friends in eco-challenges for rewards.",
+    "size": 66,
+    "reviews": 5200,
+    "ratingAvg": 4.3,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 2150 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/App_Store_%28iOS%29.svg",
+    "title": "Artly Studio",
+    "companyName": "PixelForge",
+    "id": 12,
+    "description": "Artly Studio is a digital art creation app featuring multiple brushes, layers, blending modes, tutorials, community galleries, and export in multiple formats (PNG, SVG, PSD).",
+    "size": 134,
+    "reviews": 18750,
+    "ratingAvg": 4.8,
+    "downloads": 7300000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 15480 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57_App_Store_%28iOS%29.svg",
+    "title": "Tuneify Podcast",
+    "companyName": "PodStream Co.",
+    "id": 13,
+    "description": "Tuneify Podcast lets you listen, subscribe, download episodes offline, discover new shows with its AI recommendation engine, and create custom playlists for listening sessions.",
+    "size": 85,
+    "reviews": 9400,
+    "ratingAvg": 4.4,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 480 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 4400 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/App_Store_%28iOS%29.svg",
+    "title": "PetPal",
+    "companyName": "FurryFriends Inc.",
+    "id": 14,
+    "description": "PetPal helps you manage your pet’s health: vaccination reminders, diet tracking, exercise logs, veterinary records, and breed-based care tips.",
+    "size": 49,
+    "reviews": 6500,
+    "ratingAvg": 4.2,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 380 },
+      { "name": "2 star", "count": 490 },
+      { "name": "3 star", "count": 870 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2660 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57_App_Store_%28iOS%29.svg",
+    "title": "Shopperly",
+    "companyName": "DealSmart",
+    "id": 15,
+    "description": "Shopperly helps you find the best deals by comparing prices across stores, tracking coupons, alerting on price drops, and giving cashback offers with automatic application at checkout.",
+    "size": 92,
+    "reviews": 20800,
+    "ratingAvg": 4.5,
+    "downloads": 8700000,
+    "ratings": [
+      { "name": "1 star", "count": 950 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 9150 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/App_Store_%28iOS%29.svg",
+    "title": "HealthSync",
+    "companyName": "SyncWell",
+    "id": 16,
+    "description": "HealthSync aggregates data from multiple fitness apps and devices, shows consolidated health insights, sets goals, and gives alerts when metrics deviate from healthy ranges.",
+    "size": 64,
+    "reviews": 9800,
+    "ratingAvg": 4.4,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 680 },
+      { "name": "3 star", "count": 1220 },
+      { "name": "4 star", "count": 3320 },
+      { "name": "5 star", "count": 3160 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/App_Store_%28iOS%29.svg",
+    "title": "LanguaLearn",
+    "companyName": "Polyglot Co.",
+    "id": 17,
+    "description": "LanguaLearn teaches new languages using spaced repetition, conversation simulations, grammar drills, and listening exercises. Available in dozens of languages with progress tracking and certifications.",
+    "size": 71,
+    "reviews": 15400,
+    "ratingAvg": 4.7,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 290 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 930 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "5 star", "count": 10480 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/App_Store_%28iOS%29.svg",
+    "title": "DailyPlanner",
+    "companyName": "TimeCraft",
+    "id": 18,
+    "description": "DailyPlanner is a task & schedule manager with calendar integration, reminders, habit tracking, time blocking, and productivity analytics to see how you spend your day.",
+    "size": 58,
+    "reviews": 12500,
+    "ratingAvg": 4.5,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 750 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 4400 },
+      { "name": "5 star", "count": 6200 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/App_Store_%28iOS%29.svg",
+    "title": "FitMeals",
+    "companyName": "NutriTech",
+    "id": 19,
+    "description": "FitMeals helps you plan healthy meals: generate weekly plans, get nutritional breakdowns, shopping lists, and sync with your fitness goals and caloric budget.",
+    "size": 77,
+    "reviews": 8300,
+    "ratingAvg": 4.3,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 410 },
+      { "name": "2 star", "count": 540 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 3050 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57_App_Store_%28iOS%29.svg",
+    "title": "StoryScape",
+    "companyName": "Narrative Labs",
+    "id": 20,
+    "description": "StoryScape is a visual storytelling app enabling you to write interactive stories, embed images, audio, and share with readers. Readers can choose different paths and outcomes.",
+    "size": 129,
+    "reviews": 9600,
+    "ratingAvg": 4.6,
+    "downloads": 2600000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 4050 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/App_Store_%28iOS%29.svg",
+    "title": "WeatherWise",
+    "companyName": "ClimaWorks",
+    "id": 21,
+    "description": "WeatherWise provides hyperlocal forecasts, weather maps, storm alerts, radar, hourly & daily predictions, and weather widgets tailored to your locations and interests.",
+    "size": 67,
+    "reviews": 14200,
+    "ratingAvg": 4.7,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 480 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 7890 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57_App_Store_%28iOS%29.svg",
+    "title": "HomeSecure",
+    "companyName": "SafeHome Tech",
+    "id": 22,
+    "description": "HomeSecure connects with your smart devices and security cameras to let you monitor, arm/disarm, get alerts, view live feeds, and review logs — all from your phone.",
+    "size": 98,
+    "reviews": 6700,
+    "ratingAvg": 4.4,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2150 },
+      { "name": "5 star", "count": 3130 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/App_Store_%28iOS%29.svg",
+    "title": "CommuteMate",
+    "companyName": "TransitEase",
+    "id": 23,
+    "description": "CommuteMate helps you plan the optimal route: real-time transit updates, traffic alerts, alternate route suggestions, and notifications for delays or disruptions.",
+    "size": 61,
+    "reviews": 11200,
+    "ratingAvg": 4.5,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 410 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 4870 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/App_Store_%28iOS%29.svg",
+    "title": "PhotoMagic",
+    "companyName": "VisualWorks",
+    "id": 24,
+    "description": "PhotoMagic is a powerful photo editor: apply filters, retouch, remove objects, work with layers, export high resolution files, and share directly to social media.",
+    "size": 105,
+    "reviews": 15900,
+    "ratingAvg": 4.8,
+    "downloads": 5500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 10680 }
+    ]
+  }
+]
