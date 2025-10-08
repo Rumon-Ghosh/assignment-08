@@ -4,6 +4,7 @@ import { Download, Star } from "lucide-react";
 
 const Installation = () => {
   const [remainingApp, setRemainingApp] = useState([]);
+  const [sortOrder, setSortOrder] = useState('none')
   const [installedApp, setInstalledApp] = useContext(AppContext);
 
   useEffect(() => {
@@ -11,13 +12,23 @@ const Installation = () => {
     setRemainingApp(storedApp);
   }, []);
 
-  console.log(remainingApp);
+  // console.log(remainingApp);
   const handleRemaining = (id) => {
     const updatedList = remainingApp.filter((app) => app.id !== id);
     localStorage.setItem("installed", JSON.stringify(updatedList));
     setRemainingApp(updatedList);
     setInstalledApp(updatedList);
   }
+
+  const sortItems = (() => {
+    if (sortOrder === 'download-asc') {
+      return [...remainingApp].sort((a, b) => a.downloads - b.downloads)
+    } else if (sortOrder === 'download-desc') {
+      return [...remainingApp].sort((a, b) => b.downloads - a.downloads)
+    } else {
+      return remainingApp;
+    }
+  })();
 
   return (
     <div className="w-11/12 mx-auto my-15">
@@ -28,17 +39,16 @@ const Installation = () => {
         Explore All Trending Apps on the Market developed by us
       </p>
       <div className="flex items-center justify-between">
-        <h4>{remainingApp.length} Apps Found</h4>
-        <fieldset className="fieldset">
-          <select defaultValue="Pick a browser" className="select">
-            <option disabled={true}>Pick a browser</option>
-            <option>Chrome</option>
-            <option>FireFox</option>
-            <option>Safari</option>
+        <h4 className="font-semibold text-2xl text-[#001931]">{remainingApp.length} Apps Found</h4>
+        <fieldset className="fieldset w-34">
+          <select value={sortOrder} onChange={(e) => setSortOrder(e.target.value)} className="select">
+            <option disabled={true} value={`none`}>Short By</option>
+            <option value={`download-asc`}>Low&gt;High MB</option>
+            <option value={`download-desc`}>High&gt;Low MB</option>
           </select>
         </fieldset>
       </div>
-      {remainingApp.map((list) => (
+      {sortItems.map((list) => (
         <div key={list.id} className="flex justify-between items-center rounded-lg mt-10 mb-4 p-4 bg-white">
           <div className="flex gap-2">
             <div className="w-15 h-15">
