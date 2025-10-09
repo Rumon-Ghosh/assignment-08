@@ -1,19 +1,28 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import useApp from "../Hooks/useApp";
 import { Search } from "lucide-react";
 import AppList from "../Components/AppList";
 import { Link } from "react-router";
+import LoadingSpinner from "../Components/LoadingSpinner";
 
 const Apps = () => {
   const [search, setSearch] = useState("");
   const [appsData, loading] = useApp();
+  const [isSearching, setIsSearching] = useState(false);
+
+  setTimeout(() => {
+    setIsSearching(true);
+  }, 1000);
+
   const searchValidation = search.trim().toLowerCase();
   const filteredApp = searchValidation
     ? appsData.filter((app) =>
         app.title.trim().toLowerCase().includes(searchValidation)
       )
     : appsData;
+
   // console.log(filteredApp);
+  // if (loading) return <LoadingSpinner></LoadingSpinner>;
   return (
     <div className="w-11/12 mx-auto my-20">
       <h1 className="text-5xl font-bold text-[#001931] text-center mb-4">
@@ -46,8 +55,12 @@ const Apps = () => {
         </div>
       ) : (
         <div className="min-h-32 flex flex-col items-center justify-center">
-          <h2 className="text-4xl font-semibold text-[#001931] mb-4">No App Found</h2>
-          <Link className="btn btn-outline" to={`/`}>Back To Home</Link>
+          <h2 className="text-4xl font-semibold text-[#001931] mb-4">
+            No App Found
+          </h2>
+          <Link className="btn btn-outline" to={`/`}>
+            Back To Home
+          </Link>
         </div>
       )}
     </div>

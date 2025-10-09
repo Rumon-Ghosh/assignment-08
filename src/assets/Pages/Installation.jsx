@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { AppContext } from "../Layouts/MainLayout";
 import { Download, Star } from "lucide-react";
+import { toast } from "react-toastify";
 
 const Installation = () => {
   const [remainingApp, setRemainingApp] = useState([]);
@@ -15,6 +16,7 @@ const Installation = () => {
   // console.log(remainingApp);
   const handleRemaining = (id) => {
     const updatedList = remainingApp.filter((app) => app.id !== id);
+    toast('App Uninstalled Successfully !')
     localStorage.setItem("installed", JSON.stringify(updatedList));
     setRemainingApp(updatedList);
     setInstalledApp(updatedList);
