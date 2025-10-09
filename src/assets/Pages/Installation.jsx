@@ -45,7 +45,7 @@ const Installation = () => {
       </p>
       <div className="flex items-center justify-between">
         <h4 className="font-semibold text-2xl text-[#001931]">{remainingApp.length} Apps Found</h4>
-        <fieldset className="fieldset w-54">
+        <fieldset className="fieldset w-48">
           <select value={sortOrder} onChange={(e) => setSortOrder(e.target.value)} className="select">
             <option disabled={true} value={`none`}>Sort By</option>
             <option value={`download-asc`}>Low&gt;High Download</option>

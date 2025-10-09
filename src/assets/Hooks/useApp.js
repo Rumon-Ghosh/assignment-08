@@ -6,7 +6,7 @@ const useApp = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch('../data.json')
+    fetch('/data.json')
       .then(res => res.json())
       .then(data => setApps(data))
       .catch(err => console.error(err)) 

@@ -6,7 +6,7 @@ import { ToastContainer } from "react-toastify";
 import useApp from "../Hooks/useApp";
 import LoadingSpinner from "../Components/LoadingSpinner";
 
-export const AppContext = createContext();
+export const AppContext = createContext([]);
 
 const MainLayout = () => {
   const [isInstalled, setIsInstalled] = useState(false);
