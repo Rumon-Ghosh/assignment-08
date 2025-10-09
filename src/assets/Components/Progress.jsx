@@ -2,7 +2,7 @@ import React from "react";
 
 const Progress = () => {
   return (
-    <div className="bg-gradient-to-bl from-[#9F62F2] to-[#632EE3]">
+    <div className="bg-gradient-to-br from-[#632EE3] to-[#9F62F2]">
       <div className="py-15 w-11/12 mx-auto text-white">
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-5">Trusted by Millions, Built for You</h2>
         <div className="flex flex-col gap-4 md:flex-row justify-around">

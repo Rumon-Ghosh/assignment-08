@@ -71,8 +71,9 @@ const Apps = () => {
         <div className="min-h-32 flex flex-col items-center justify-center">
           <img className="mb-4 w-40" src={appErrorImg} alt="No App Found" />
           <h2 className="text-4xl font-semibold text-[#001931] mb-4">
-            No App Found
-          </h2>
+            Opps! No App Found
+              </h2>
+              <p className="text-[20px] mb-3">The App you are requesting is not found on our system.  please try another apps</p>
           <Link className="btn btn-outline" to={`/`}>
             Back To Home
           </Link>
@@ -84,83 +85,3 @@ const Apps = () => {
 
 export default Apps;
 
-
-
-
-// import React, { use, useEffect, useState } from "react";
-// import useApp from "../Hooks/useApp";
-// import { Search } from "lucide-react";
-// import AppList from "../Components/AppList";
-// import { Link } from "react-router";
-// import LoadingSpinner from "../Components/LoadingSpinner";
-// import appErrorImg from "../Images/App-Error.png";
-
-// const Apps = () => {
-//   const [search, setSearch] = useState("");
-//   const [appsData, loading] = useApp();
-//   const [isLoading, setIsLoading] = useState(false);
-//   const [searchApp, setSearchApp] = useState([])
-
-//   useEffect(() => {
-//     if (!isLoading) {
-//       setTimeout(() => {
-//         setIsLoading(true)
-//         const searchValidation = search.trim().toLowerCase();
-//         const filteredApp = searchValidation
-//           ? appsData.filter((app) =>
-//               app.title.trim().toLowerCase().includes(searchValidation)
-//             )
-//           : appsData;
-//         setSearchApp([...filteredApp])
-//       }, 1500);
-//     }
-//     return () => setIsLoading(false);
-//   }, [isLoading,search, appsData]);
-
-//   if (loading && isLoading) return <LoadingSpinner></LoadingSpinner>;
-//   return (
-//     <div className="w-11/12 mx-auto my-20">
-//       <h1 className="text-5xl font-bold text-[#001931] text-center mb-4">
-//         Our All Applications
-//       </h1>
-//       <p className="text-center text-[20px] text-[#627382] mb-10">
-//         Explore All Apps on the Market developed by us. We code for Millions
-//       </p>
-//       <div className="flex justify-between items-center">
-//         <h3 className="text-[24px] font-semibold text-[#001931]">
-//           ({searchApp.length}) Apps Found
-//         </h3>
-//         <label className="input">
-//           <span className="label">
-//             <Search></Search>
-//           </span>
-//           <input
-//             value={search}
-//             onChange={(e) => setSearch(e.target.value)}
-//             type="search"
-//             placeholder="Search App"
-//           />
-//         </label>
-//       </div>
-//       {searchApp.length > 0 ? (
-//         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
-//           {searchApp.map((app) => (
-//             <AppList key={app.id} app={app}></AppList>
-//           ))}
-//         </div>
-//       ) : (
-//         <div className="min-h-32 flex flex-col items-center justify-center">
-//           <img className="mb-4" src={appErrorImg} />
-//           <h2 className="text-4xl font-semibold text-[#001931] mb-4">
-//             No App Found
-//           </h2>
-//           <Link className="btn btn-outline" to={`/`}>
-//             Back To Home
-//           </Link>
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default Apps;

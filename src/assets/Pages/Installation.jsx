@@ -8,7 +8,7 @@ import LoadingSpinner from "../Components/LoadingSpinner";
 const Installation = () => {
   const [remainingApp, setRemainingApp] = useState([]);
   const [sortOrder, setSortOrder] = useState('none');
-  const [app, loading] = useApp()
+  const [, loading] = useApp()
 
 
   useEffect(() => {

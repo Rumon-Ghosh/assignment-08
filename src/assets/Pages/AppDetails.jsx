@@ -31,7 +31,7 @@ const AppDetails = () => {
     const installedApps = JSON.parse(localStorage.getItem("installed")) || [];
     const alreadyInstalled = installedApps.some((app) => app.id === Number(id));
     if (!alreadyInstalled) {
-      toast.success('App Install Successfully !')
+      toast.success(`${title} Installed Successfully !`)
       localStorage.setItem("installed", JSON.stringify([...installedApps, currentApp]));
       setIsInstalled(true);
     }
@@ -47,8 +47,7 @@ const AppDetails = () => {
   }, []);
 
   if(loading) return <LoadingSpinner></LoadingSpinner>
-  return (
-    loading ? <LoadingSpinner></LoadingSpinner> : 
+  return ( 
     <div className="w-11/12 mx-auto my-20">
       <div className="flex flex-col md:flex-row gap-5">
         <div className="max-w-56 h-56 overflow-hidden">
@@ -59,10 +58,10 @@ const AppDetails = () => {
             <h2 className="mb-1 text-3xl font-bold text-[#001931]">{title}</h2>
             <p className="text-[20px] text-[#627382]">
               Developed By:
-              <span className="text-blue-500 font-medium">{companyName}</span>
+              <span className="text-blue-500 font-medium"> {companyName}</span>
             </p>
           </div>
-          <div className="flex flex-col md:flex-row gap-5 mt-2">
+          <div className="flex flex-col md:flex-row gap-7 mt-2">
             <div className="flex flex-col items-start gap-0.5">
               <img src={downloadImg} alt="downloads" />
               <p className="text-[#001931]">Downloads</p>
