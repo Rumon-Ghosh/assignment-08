@@ -46,6 +46,7 @@ const AppDetails = () => {
     return () => window.removeEventListener("storage", handleStorageChange);
   }, []);
 
+  if(loading) return <LoadingSpinner></LoadingSpinner>
   return (
     loading ? <LoadingSpinner></LoadingSpinner> : 
     <div className="w-11/12 mx-auto my-20">

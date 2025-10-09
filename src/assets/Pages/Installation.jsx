@@ -1,12 +1,15 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AppContext } from "../Layouts/MainLayout";
 import { Download, Star } from "lucide-react";
 import { toast } from "react-toastify";
+import useApp from "../Hooks/useApp";
+import LoadingSpinner from "../Components/LoadingSpinner";
 
 const Installation = () => {
   const [remainingApp, setRemainingApp] = useState([]);
-  const [sortOrder, setSortOrder] = useState('none')
-  const [installedApp, setInstalledApp] = useContext(AppContext);
+  const [sortOrder, setSortOrder] = useState('none');
+  const [app, loading] = useApp()
+
 
   useEffect(() => {
     const storedApp = JSON.parse(localStorage.getItem("installed")) || [];
@@ -19,9 +22,9 @@ const Installation = () => {
     toast('App Uninstalled Successfully !')
     localStorage.setItem("installed", JSON.stringify(updatedList));
     setRemainingApp(updatedList);
-    setInstalledApp(updatedList);
   }
 
+  if(loading) return <LoadingSpinner></LoadingSpinner>
   const sortItems = (() => {
     if (sortOrder === 'download-asc') {
       return [...remainingApp].sort((a, b) => a.downloads - b.downloads)
@@ -42,11 +45,11 @@ const Installation = () => {
       </p>
       <div className="flex items-center justify-between">
         <h4 className="font-semibold text-2xl text-[#001931]">{remainingApp.length} Apps Found</h4>
-        <fieldset className="fieldset w-34">
+        <fieldset className="fieldset w-54">
           <select value={sortOrder} onChange={(e) => setSortOrder(e.target.value)} className="select">
-            <option disabled={true} value={`none`}>Short By</option>
-            <option value={`download-asc`}>Low&gt;High MB</option>
-            <option value={`download-desc`}>High&gt;Low MB</option>
+            <option disabled={true} value={`none`}>Sort By</option>
+            <option value={`download-asc`}>Low&gt;High Download</option>
+            <option value={`download-desc`}>High&gt;Low Download</option>
           </select>
         </fieldset>
       </div>

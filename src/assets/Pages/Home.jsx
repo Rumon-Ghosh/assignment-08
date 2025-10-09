@@ -4,13 +4,15 @@ import Progress from "../Components/Progress";
 import AppList from "../Components/AppList";
 import useApp from "../Hooks/useApp";
 import { Link } from "react-router";
+import LoadingSpinner from "../Components/LoadingSpinner";
 
 const Home = () => {
   const [apps, loading] = useApp();
   const featuredData = apps.slice(0, 8);
   // console.log(featuredData)
+  if(loading) return <LoadingSpinner></LoadingSpinner>
   return (
-    <div className="my-20">
+    <div className="my-15">
       <Banner></Banner>
       <Progress></Progress>
       <div className="w-11/12 mx-auto mt-20">
